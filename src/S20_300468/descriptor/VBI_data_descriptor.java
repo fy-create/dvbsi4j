@@ -53,8 +53,8 @@ public class VBI_data_descriptor extends CommonParser {
                             || contextGet("data_service_id") == 0x07) {
                         {
                             pushNode("fields");
-                            int _a3e12991_16d4_4c59_85aa_cbd06f71b083 = (contextGet("data_service_descriptor_length")) + getToken();
-                            while (getToken() < _a3e12991_16d4_4c59_85aa_cbd06f71b083) // data_service_descriptor_length
+                            int _dynamic_2 = (contextGet("data_service_descriptor_length")) + getToken();
+                            while (getToken() < _dynamic_2) // data_service_descriptor_length
                             {
                                 pushElement();
                                 {

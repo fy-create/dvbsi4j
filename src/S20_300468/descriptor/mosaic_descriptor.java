@@ -56,8 +56,8 @@ public class mosaic_descriptor extends CommonParser {
                     parseData("elementary_cell_field_length 8 uimsbf ");
                     {
                         pushNode("elementary_cell");
-                        int _3c408a0c_f148_47fe_9a32_15cf39c093b4 = (contextGet("_field_length")) + getToken();
-                        while (getToken() < _3c408a0c_f148_47fe_9a32_15cf39c093b4) // _field_length
+                        int _dynamic_1 = (contextGet("_field_length")) + getToken();
+                        while (getToken() < _dynamic_1) // _field_length
                         {
                             pushElement();
                             {

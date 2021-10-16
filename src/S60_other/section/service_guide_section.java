@@ -62,8 +62,8 @@ public class service_guide_section extends CommonParser {
         parseData("service_loop_length 12 uimsbf ");
         {
             pushNode("services");
-            int _23a97861_ab58_4c1c_98a5_970b95b7d51e = (contextGet("service_loop_length")) + getToken();
-            while (getToken() < _23a97861_ab58_4c1c_98a5_970b95b7d51e) // service_loop_length
+            int _dynamic_4 = (contextGet("service_loop_length")) + getToken();
+            while (getToken() < _dynamic_4) // service_loop_length
             {
                 pushElement();
                 {

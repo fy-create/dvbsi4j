@@ -52,8 +52,8 @@ public class tkgs_data_section extends CommonParser {
         parseData("broadcast_source_loop_length 20 uimsbf ");
         {
             pushNode("broadcast_source_loops");
-            int _1b674687_7e19_4dc6_84bd_1331a0e4c1d4 = (contextGet("broadcast_source_loop_length")) + getToken();
-            while (getToken() < _1b674687_7e19_4dc6_84bd_1331a0e4c1d4) // broadcast_source_loop_length
+            int _dynamic_5 = (contextGet("broadcast_source_loop_length")) + getToken();
+            while (getToken() < _dynamic_5) // broadcast_source_loop_length
             {
                 pushElement();
                 {
@@ -69,8 +69,8 @@ public class tkgs_data_section extends CommonParser {
                     parseData("transport_stream_loop_length 20 uimsbf ");
                     {
                         pushNode("transport_streams");
-                        int _0a728d31_5755_4435_9f46_82253dbea8d0 = (contextGet("transport_stream_loop_length")) + getToken();
-                        while (getToken() < _0a728d31_5755_4435_9f46_82253dbea8d0) // transport_stream_loop_length
+                        int _dynamic_6 = (contextGet("transport_stream_loop_length")) + getToken();
+                        while (getToken() < _dynamic_6) // transport_stream_loop_length
                         {
                             pushElement();
                             {
@@ -108,8 +108,8 @@ public class tkgs_data_section extends CommonParser {
                                                 parseData("reserved_future_use 8 bslbf ");
                                                 {
                                                     pushNode("services");
-                                                    int _3501e0e8_0a4a_4843_bfe2_628d35a741ea = (contextGet("section_length") - 12) + getToken();
-                                                    while (getToken() < _3501e0e8_0a4a_4843_bfe2_628d35a741ea) // section_length-12
+                                                    int _dynamic_7 = (contextGet("section_length") - 12) + getToken();
+                                                    while (getToken() < _dynamic_7) // section_length-12
                                                     {
                                                         pushElement();
                                                         {
@@ -147,8 +147,8 @@ public class tkgs_data_section extends CommonParser {
                                 parseData("program_loop_length 16 uimbsf ");
                                 {
                                     pushNode("programs");
-                                    int _eb336657_4a56_481e_97c1_92ca072cfe5b = (contextGet("program_loop_length")) + getToken();
-                                    while (getToken() < _eb336657_4a56_481e_97c1_92ca072cfe5b) // program_loop_length
+                                    int _dynamic_8 = (contextGet("program_loop_length")) + getToken();
+                                    while (getToken() < _dynamic_8) // program_loop_length
                                     {
                                         pushElement();
                                         {
@@ -178,9 +178,9 @@ public class tkgs_data_section extends CommonParser {
 
                                             {
                                                 pushNode("streams");
-                                                int _eae14adf_2d81_491e_aae9_56f9d044198a = (contextGet("section_length")
-                                                        - contextGet("program_info_length") - 4 - 9) + getToken();
-                                                while (getToken() < _eae14adf_2d81_491e_aae9_56f9d044198a) // section_length-program_info_length-4-9
+                                                int _dynamic_9 = (contextGet("section_length") - contextGet("program_info_length") - 4 - 9)
+                                                        + getToken();
+                                                while (getToken() < _dynamic_9) // section_length-program_info_length-4-9
                                                 {
                                                     pushElement();
                                                     {
@@ -222,8 +222,8 @@ public class tkgs_data_section extends CommonParser {
         parseData("service_list_loop_length 20 uimsbf ");
         {
             pushNode("service_lists");
-            int _797e2005_6a31_482f_8e13_38834223ae1e = (contextGet("service_list_loop_length")) + getToken();
-            while (getToken() < _797e2005_6a31_482f_8e13_38834223ae1e) // service_list_loop_length
+            int _dynamic_10 = (contextGet("service_list_loop_length")) + getToken();
+            while (getToken() < _dynamic_10) // service_list_loop_length
             {
                 pushElement();
                 {

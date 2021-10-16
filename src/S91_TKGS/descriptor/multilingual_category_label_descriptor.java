@@ -43,8 +43,8 @@ public class multilingual_category_label_descriptor extends CommonParser {
         parseData("category_id 12 uimsbf ");
         {
             pushNode("languages");
-            int _f9be9a23_e531_4263_9d4b_d53ed4f077ad = (contextGet("descriptor_length") - 2) + getToken();
-            while (getToken() < _f9be9a23_e531_4263_9d4b_d53ed4f077ad) // descriptor_length-2
+            int _dynamic_14 = (contextGet("descriptor_length") - 2) + getToken();
+            while (getToken() < _dynamic_14) // descriptor_length-2
             {
                 pushElement();
                 {

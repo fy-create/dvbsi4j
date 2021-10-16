@@ -591,7 +591,10 @@ public class Generator {
         return str;
     }
 
+    private static int dynamicId = 0;
+
     public static String getUUID() {
-        return "_" + UUID.randomUUID().toString().replace("-", "_");
+//        return "_" + UUID.randomUUID().toString().replace("-", "_");
+        return "_dynamic_" + dynamicId++;
     }
 }

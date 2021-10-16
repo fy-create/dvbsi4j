@@ -52,8 +52,8 @@ public class service_description_section extends CommonParser {
         parseData("reserved_future_use 8 bslbf ");
         {
             pushNode("services");
-            int _909bdb23_cc2b_49c4_a65a_3636cf68247b = (contextGet("section_length") - 12) + getToken();
-            while (getToken() < _909bdb23_cc2b_49c4_a65a_3636cf68247b) // section_length-12
+            int _dynamic_0 = (contextGet("section_length") - 12) + getToken();
+            while (getToken() < _dynamic_0) // section_length-12
             {
                 pushElement();
                 {

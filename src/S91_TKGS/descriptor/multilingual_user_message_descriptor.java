@@ -41,8 +41,8 @@ public class multilingual_user_message_descriptor extends CommonParser {
         parseData("descriptor_length 8 uimsbf ");
         {
             pushNode("languages");
-            int _7f6f1d3e_0073_4cda_b9fd_267a2165628d = (contextGet("descriptor_length")) + getToken();
-            while (getToken() < _7f6f1d3e_0073_4cda_b9fd_267a2165628d) // descriptor_length
+            int _dynamic_12 = (contextGet("descriptor_length")) + getToken();
+            while (getToken() < _dynamic_12) // descriptor_length
             {
                 pushElement();
                 {

@@ -41,8 +41,8 @@ public class multilingual_service_list_name_descriptor extends CommonParser {
         parseData("descriptor_length 8 uimsbf ");
         {
             pushNode("names");
-            int _3893fa3d_5e0f_4966_a698_8ceee58a9491 = (contextGet("descriptor_length") - 2) + getToken();
-            while (getToken() < _3893fa3d_5e0f_4966_a698_8ceee58a9491) // descriptor_length-2
+            int _dynamic_11 = (contextGet("descriptor_length") - 2) + getToken();
+            while (getToken() < _dynamic_11) // descriptor_length-2
             {
                 pushElement();
                 {

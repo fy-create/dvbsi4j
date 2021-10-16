@@ -42,8 +42,8 @@ public class tkgs_extended_service_descriptor extends CommonParser {
         parseData("reserved 48 bslbf ");
         {
             pushNode("categorys");
-            int _29365b18_32bf_4e7a_bcff_a182e272504f = (contextGet("descriptor_length") - 6) + getToken();
-            while (getToken() < _29365b18_32bf_4e7a_bcff_a182e272504f) // descriptor_length-6
+            int _dynamic_13 = (contextGet("descriptor_length") - 6) + getToken();
+            while (getToken() < _dynamic_13) // descriptor_length-6
             {
                 pushElement();
                 {

@@ -61,8 +61,8 @@ public class TS_program_map_section extends CommonParser {
 
         {
             pushNode("streams");
-            int _4d33488c_4a5a_46ab_a8cb_0a4813d1d59f = (contextGet("section_length") - contextGet("program_info_length") - 4 - 9) + getToken();
-            while (getToken() < _4d33488c_4a5a_46ab_a8cb_0a4813d1d59f) // section_length-program_info_length-4-9
+            int _dynamic_3 = (contextGet("section_length") - contextGet("program_info_length") - 4 - 9) + getToken();
+            while (getToken() < _dynamic_3) // section_length-program_info_length-4-9
             {
                 pushElement();
                 {
