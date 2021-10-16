@@ -1,0 +1,7 @@
+package com.fyteck.dvbsi;
+
+public class SyntaxConst {
+    public static void init() {
+        /* $registClassName$ */
+    }
+}

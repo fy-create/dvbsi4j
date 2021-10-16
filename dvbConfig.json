@@ -1,0 +1,358 @@
+{
+  "PIDS": [
+    {
+      "pid": 0,
+      "name": "PAT",
+      "enable": true
+    },
+    {
+      "pid": 1,
+      "name": "CAT",
+      "enable": true
+    },
+    {
+      "pid": 2,
+      "name": "TSDT",
+      "enable": true
+    },
+    {
+      "pid": 16,
+      "name": "NIT, ST",
+      "enable": true
+    },
+    {
+      "pid": 17,
+      "name": "SDT, BAT, ST",
+      "enable": true
+    },
+    {
+      "pid": 18,
+      "name": "EIT, ST CIT",
+      "enable": true
+    },
+    {
+      "pid": 19,
+      "name": "RST, ST",
+      "enable": true
+    },
+    {
+      "pid": 20,
+      "name": "TDT, TOT, ST",
+      "enable": true
+    },
+    {
+      "pid": 21,
+      "name": "network synchronization",
+      "enable": true
+    },
+    {
+      "pid": 22,
+      "name": "RNT",
+      "enable": true
+    },
+    {
+      "pid": 28,
+      "name": "inband signalling",
+      "enable": true
+    },
+    {
+      "pid": 29,
+      "name": "measurement",
+      "enable": true
+    },
+    {
+      "pid": 30,
+      "name": "DIT",
+      "enable": true
+    },
+    {
+      "pid": 31,
+      "name": "SIT",
+      "enable": true
+    },
+    {
+      "pid": 900,
+      "name": "CanalDigitaal SD",
+      "enable": true
+    },
+    {
+      "pid": 901,
+      "name": "CanalDigitaal HD",
+      "enable": true
+    },
+    {
+      "pid": 910,
+      "name": "TV VLAANDEREN SD",
+      "enable": true
+    },
+    {
+      "pid": 911,
+      "name": "TV VLAANDEREN HD",
+      "enable": true
+    },
+    {
+      "pid": 920,
+      "name": "TeleSAT Belgium",
+      "enable": true
+    },
+    {
+      "pid": 921,
+      "name": "TeleSAT Luxemburg",
+      "enable": true
+    },
+    {
+      "pid": 950,
+      "name": "AustriaSat",
+      "enable": true
+    },
+    {
+      "pid": 665,
+      "name": "ProgramDataTablePid",
+      "enable": true
+    },
+    {
+      "pid": 128,
+      "name": "IndonesiaEWSPid",
+      "enable": true
+    },
+    {
+      "pid": 8181,
+      "name": "TKGS",
+      "enable": true
+    }
+  ],
+  "tableIdList": [
+    {
+      "start": 0,
+      "end": 0,
+      "shortName": "PAT",
+      "descript": "program_association_section",
+      "fullClassName": "S10_13818.section.program_association_section",
+      "enable": true
+    },
+    {
+      "start": 1,
+      "end": 0,
+      "shortName": "CAT",
+      "descript": "conditional_access_section",
+      "fullClassName": "S10_13818.section.CA_section",
+      "enable": true
+    },
+    {
+      "start": 2,
+      "end": 0,
+      "shortName": "PMT",
+      "descript": "program_map_section",
+      "fullClassName": "S10_13818.section.TS_program_map_section",
+      "enable": true
+    },
+    {
+      "start": 64,
+      "end": 0,
+      "shortName": "NIT_actual",
+      "descript": "network_information_section - actual_network",
+      "fullClassName": "S20_300468.section.network_information_section",
+      "enable": true
+    },
+    {
+      "start": 65,
+      "end": 0,
+      "shortName": "NIT_other",
+      "descript": "network_information_section - other_network",
+      "fullClassName": "S20_300468.section.network_information_section",
+      "enable": true
+    },
+    {
+      "start": 66,
+      "end": 0,
+      "shortName": "SDT_actual",
+      "descript": "service_description_section - actual_transport_stream",
+      "fullClassName": "S20_300468.section.service_description_section",
+      "enable": true
+    },
+    {
+      "start": 70,
+      "end": 0,
+      "shortName": "SDT_other",
+      "descript": "service_description_section - other_transport_stream",
+      "fullClassName": "S20_300468.section.service_description_section",
+      "enable": true
+    },
+    {
+      "start": 74,
+      "end": 0,
+      "shortName": "BAT",
+      "descript": "bouquet_association_section",
+      "fullClassName": "S20_300468.section.bouquet_association_section",
+      "enable": true
+    },
+    {
+      "start": 78,
+      "end": 0,
+      "shortName": "EIT_actual_pf",
+      "descript": "event_information_section - actual_transport_stream,present/following",
+      "fullClassName": "S20_300468.section.event_information_section",
+      "enable": true
+    },
+    {
+      "start": 79,
+      "end": 0,
+      "shortName": "EIT_other_pf",
+      "descript": "event_information_section - other_transport_stream,present/following",
+      "fullClassName": "S20_300468.section.event_information_section",
+      "enable": true
+    },
+    {
+      "start": 80,
+      "end": 95,
+      "shortName": "EIT_actual_schedule",
+      "descript": "event_information_section - actual_transport_stream,schedule",
+      "fullClassName": "S20_300468.section.event_information_section",
+      "enable": true
+    },
+    {
+      "start": 96,
+      "end": 111,
+      "shortName": "EIT_other_schedule",
+      "descript": "event_information_section - other_transport_stream,schedule",
+      "fullClassName": "S20_300468.section.event_information_section",
+      "enable": true
+    },
+    {
+      "start": 112,
+      "end": 0,
+      "shortName": "TDT",
+      "descript": "time_date_section",
+      "fullClassName": "S20_300468.section.time_date_section",
+      "enable": true
+    },
+    {
+      "start": 113,
+      "end": 0,
+      "shortName": "RST",
+      "descript": "running_status_section",
+      "fullClassName": "S20_300468.section.running_status_section",
+      "enable": true
+    },
+    {
+      "start": 114,
+      "end": 0,
+      "shortName": "stuffing_section",
+      "descript": "stuffing_section",
+      "fullClassName": "S20_300468.section.stuffing_section",
+      "enable": true
+    },
+    {
+      "start": 115,
+      "end": 0,
+      "shortName": "TOT",
+      "descript": "time_offset_section",
+      "fullClassName": "S20_300468.section.time_offset_section",
+      "enable": true
+    },
+    {
+      "start": 116,
+      "end": 0,
+      "shortName": "AIT",
+      "descript": "application information section (TS 102 812 [15])",
+      "fullClassName": "S40_102812.section.application_information_section",
+      "enable": true
+    },
+    {
+      "start": 145,
+      "end": 0,
+      "shortName": "SGT",
+      "descript": "Service Guide Table ASTRA_LCN_v2_4",
+      "fullClassName": "S60_other.section.service_guide_section",
+      "enable": true
+    },
+    {
+      "start": 189,
+      "end": 0,
+      "shortName": "FST",
+      "descript": "Fastscan Services Table (FST)",
+      "fullClassName": "S60_other.section.FST_section",
+      "enable": true
+    },
+    {
+      "start": 188,
+      "end": 0,
+      "shortName": "FNT",
+      "descript": "Fastscan Network Table (FNT)",
+      "fullClassName": "S60_other.section.FNT_section",
+      "enable": true
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "shortName": "CAMT",
+      "descript": "CA Message Table",
+      "fullClassName": "S60_other.section.CA_message_section",
+      "enable": false
+    },
+    {
+      "start": 58,
+      "end": 0,
+      "shortName": "DSMCC_LLCSNAP",
+      "descript": "DSMCC_LLCSNAP",
+      "fullClassName": "S70_101202.section.DSMCC_3A_section",
+      "enable": true
+    },
+    {
+      "start": 59,
+      "end": 0,
+      "shortName": "DSMCC_userNetworkMessage",
+      "descript": "DSMCC_userNetworkMessage",
+      "fullClassName": "S70_101202.section.DSMCC_3B_section",
+      "enable": true
+    },
+    {
+      "start": 60,
+      "end": 0,
+      "shortName": "DSMCC_downloadDataMessage",
+      "descript": "DSMCC_downloadDataMessage",
+      "fullClassName": "S70_101202.section.DSMCC_3C_section",
+      "enable": true
+    },
+    {
+      "start": 61,
+      "end": 0,
+      "shortName": "DSMCC_descriptor_list",
+      "descript": "DSMCC_descriptor_list",
+      "fullClassName": "S70_101202.section.DSMCC_3D_section",
+      "enable": true
+    },
+    {
+      "start": 62,
+      "end": 0,
+      "shortName": "DSMCC_private_data_byte",
+      "descript": "DSMCC_private_data_byte",
+      "fullClassName": "S70_101202.section.DSMCC_3E_section",
+      "enable": true
+    },
+    {
+      "start": 251,
+      "end": 0,
+      "shortName": "program_data_section",
+      "descript": "program_data_section",
+      "fullClassName": "S80_polsat_stb.section.program_data_section",
+      "enable": true
+    },
+    {
+      "start": 128,
+      "end": 0,
+      "shortName": "Indonesia_EWS",
+      "descript": "Indonesia_EWS",
+      "fullClassName": "S90_Indonesia_EWS.section.TRDW_section",
+      "enable": true
+    },
+    {
+      "start": 167,
+      "end": 0,
+      "shortName": "TKGS",
+      "descript": "TKGS",
+      "fullClassName": "S91_TKGS.section.tkgs_section",
+      "enable": true
+    }
+  ]
+}
