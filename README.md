@@ -86,7 +86,7 @@ for (NodeValue _programNode : programsNodeList) {
     }
 }
 
-Result:
+Sample text result from DecodePATPMT.java :
 DecodePATPMT:88  
 table_id                                          0          [0x0         ]
 section_syntax_indicator                          1          [0x1         ]
