@@ -27,8 +27,8 @@ Here is sample for create SDK [GeneratorSDK](https://github.com/fy-create/dvbsi4
 #### Customize PID/ Table ID filter
 User can customize the PID filters easily for runtime usage.
 
-[dvbConfig.json](https://github.com/fy-create/dvbsi4j/blob/75576e2ea82ba877a2b5e0d88e20cb8d1964da62/dvbConfig.json) is a configuration file in json format, you can configure PID Table ID filter here, and you can change it through  API at runtime.
-please reference [DecodePATPMT.java ](https://github.com/fy-create/dvbsi4j/blob/75576e2ea82ba877a2b5e0d88e20cb8d1964da62/src/com/fyteck/dvbsi/sample/DecodePATPMT.java)for detail, this example show how to set PMT PID filter after receive PAT.
+[dvbConfig.json](https://github.com/fy-create/dvbsi4j/blob/main/dvbConfig.json) is a configuration file in json format, you can configure PID Table ID filter here, and you can change it through  API at runtime.
+please reference [DecodePATPMT.java ](https://github.com/fy-create/dvbsi4j/blob/main/src/com/fyteck/dvbsi/sample/DecodePATPMT.java)for detail, this example show how to set PMT PID filter after receive PAT.
 
 
 ### Simple API to access Section/Descriptor data
