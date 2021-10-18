@@ -21,7 +21,7 @@ Current support bellow DTV SPEC,You can simply extend it.
 
 
 Please see [DVB Syntax](https://github.com/fy-create/dvbsi4j/tree/main/syntax/input) for detail.
-Here is sample for create SDK [GeneratorSDK](https://github.com/fy-create/dvbsi4j/blob/75576e2ea82ba877a2b5e0d88e20cb8d1964da62/src/com/fyteck/dvbsi/sample/GeneratorSDK.java)
+Here is sample for create SDK [GeneratorSDK](https://github.com/fy-create/dvbsi4j/blob/main/src/com/fyteck/dvbsi/sample/GeneratorSDK.java)
 
 
 #### Customize PID/ Table ID filter
