@@ -85,6 +85,50 @@ for (NodeValue _programNode : programsNodeList) {
         section.getBitStream().getPIDFilter().addPidFilter(program_map_PID, "PMT pid=>" + program_map_PID);
     }
 }
+
+Result:
+DecodePATPMT:88  
+table_id                                          0          [0x0         ]
+section_syntax_indicator                          1          [0x1         ]
+noused                                            0          [0x0         ]
+reserved                                          3          [0x3         ]
+section_length                                    37         [0x25        ]
+transport_stream_id                               32778      [0x800A      ]
+reserved                                          3          [0x3         ]
+version_number                                    5          [0x5         ]
+current_next_indicator                            1          [0x1         ]
+section_number                                    0          [0x0         ]
+last_section_number                               0          [0x0         ]
+programs                                                                      /* ❷ */
+  program                                         
+    program_number                                0          [0x0         ]
+    reserved                                      7          [0x7         ]
+    network_PID                                   16         [0x10        ]
+  program                                         
+    program_number                                33984      [0x84C0      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1020       [0x3FC       ]
+  program                                         
+    program_number                                33472      [0x82C0      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1030       [0x406       ]
+  program                                         
+    program_number                                34048      [0x8500      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1040       [0x410       ]
+  program                                         
+    program_number                                33664      [0x8380      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1060       [0x424       ]
+  program                                         
+    program_number                                32842      [0x804A      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1010       [0x3F2       ]
+  program                                         
+    program_number                                34112      [0x8540      ]
+    reserved                                      7          [0x7         ]
+    program_map_PID                               1070       [0x42E       ]
+CRC_32                                            3893584241 [0xE8136171  ]
 ```
 
 ### Sample
