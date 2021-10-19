@@ -32,18 +32,17 @@
  *******************************************************************************/
 package com.fyteck.dvbsi;
 
-import org.antlr.runtime.ANTLRInputStream;
-import org.antlr.runtime.CommonTokenStream;
-import org.antlr.runtime.tree.CommonTree;
-import org.antlr.runtime.tree.Tree;
-import org.apache.log4j.Logger;
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
+
+import org.antlr.runtime.ANTLRInputStream;
+import org.antlr.runtime.CommonTokenStream;
+import org.antlr.runtime.tree.CommonTree;
+import org.antlr.runtime.tree.Tree;
+import org.apache.log4j.Logger;
 
 public class Generator {
     private static final Logger       log                 = Logger.getLogger(Generator.class);
